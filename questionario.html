@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparência Digital BR - Processo Seletivo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="https://i.imgur.com/fKeJ7Vp.png" alt="Logo Transparência Digital BR">
+                <div class="logo-text">
+                    <h1>Transparência Digital BR</h1>
+                    <p>Tecnologia para Gestão Pública</p>
+                </div>
+            </div>
+            <div>
+                <a href="#" style="color: white; text-decoration: none; font-weight: 500;"><i class="fas fa-lock"></i> Área do Candidato</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Estágio em Desenvolvimento WordPress</h2>
+            <p>Junte-se ao nosso time de tecnologia e desenvolva soluções inovadoras para o setor público</p>
+            <div class="alert-banner"><i class="fas fa-exclamation-triangle"></i> Últimas vagas - Prazo encerra em 24h</div>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="form-section">
+            <div class="form-header">
+                <h3>Formulário de Inscrição</h3>
+                <p>Responda algumas perguntas para conhecermos você melhor</p>
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress-step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">Dados Pessoais</div>
+                </div>
+                <div class="progress-step step-active">
+                    <div class="step-number">2</div>
+                    <div class="step-text">Questionário</div>
+                </div>
+                <div class="progress-step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">Confirmação</div>
+                </div>
+            </div>
+
+            <form id="questionnaireForm">
+                <div class="form-group full-width">
+                    <label for="conhecimento_wordpress"><i class="fas fa-wordpress"></i> Qual seu nível de conhecimento em WordPress?</label>
+                    <select id="conhecimento_wordpress" name="conhecimento_wordpress">
+                        <option value="">Selecione</option>
+                        <option value="basico">Básico</option>
+                        <option value="intermediario">Intermediário</option>
+                        <option value="avancado">Avançado</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="experiencia_plugins"><i class="fas fa-plug"></i> Já desenvolveu ou customizou plugins?</label>
+                    <select id="experiencia_plugins" name="experiencia_plugins">
+                        <option value="">Selecione</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="habilidades_front"><i class="fas fa-code"></i> Quais suas habilidades em Front-end (HTML, CSS, JavaScript)?</label>
+                    <textarea id="habilidades_front" name="habilidades_front" rows="3" placeholder="Liste suas habilidades e nível de conhecimento"></textarea>
+                </div>
+
+                <button type="button" class="btn" id="prevBtn2"><i class="fas fa-arrow-left"></i> Anterior</button>
+                <button type="button" class="btn" id="finalBtn2">Confirmar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#"><i class="fas fa-lock"></i> Política de Privacidade</a>
+                <a href="#"><i class="fas fa-balance-scale"></i> Termos de Uso</a>
+                <a href="#"><i class="fas fa-briefcase"></i> Trabalhe Conosco</a>
+                <a href="#"><i class="fas fa-envelope"></i> Contato</a>
+            </div>
+            <p class="copyright">© 2023 Transparência Digital BR. Todos os direitos reservados. CNPJ: 12.345.678/0001-99</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
