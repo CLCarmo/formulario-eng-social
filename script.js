@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const questionnaireForm = document.getElementById('questionnaireForm');
 
     // URL do seu Aplicativo da Web do Google Apps Script
-    const backendUrl = "https://script.google.com/macros/s/AKfycbz93Z65C3OkqGbgjT6RsnLRNScEhzJQlHcfYK3A32bZHgDGFWnH1hP_PNStQ6trJFnTYg/exec"; // **SUBSTITUA PELA SUA URL**
+    const backendUrl = "https://script.google.com/macros/s/AKfycbxqxSBnOSVPDT_xAf2836_OGvbKB3r7_c0xnLXW37DE13Hsviw3XaBsz3vXglEMlcnKag/exec"; // **SUBSTITUA PELA SUA URL**
 
     if (linkTermos && modalTermos && closeModal) {
         linkTermos.addEventListener('click', function(e) {
