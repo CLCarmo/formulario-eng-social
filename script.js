@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeModal = document.getElementById('closeModal');
     const nextBtn1 = document.getElementById('nextBtn1');
     const prevBtn2 = document.getElementById('prevBtn2');
-    const nextBtn2 = document.getElementById('finalBtn2'); // ID do botão "Próximo" na página 2
+    const nextBtn2 = document.getElementById('finalBtn2');
     const prevBtn3 = document.getElementById('prevBtn3');
     const personalDataForm = document.getElementById('personalDataForm');
     const questionnaireForm = document.getElementById('questionnaireForm');
 
     // URL do seu Aplicativo da Web do Google Apps Script
-    const backendUrl = "SUA_URL_DO_APPS_SCRIPT_AQUI"; // **SUBSTITUA PELA SUA URL**
+    const backendUrl = "https://script.google.com/macros/s/AKfycbz93Z65C3OkqGbgjT6RsnLRNScEhzJQlHcfYK3A32bZHgDGFWnH1hP_PNStQ6trJFnTYg/exec"; // **SUBSTITUA PELA SUA URL**
 
     if (linkTermos && modalTermos && closeModal) {
         linkTermos.addEventListener('click', function(e) {
